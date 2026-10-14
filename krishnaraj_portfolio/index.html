@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f2ec">
+  <meta name="description" content="Krishnaraj — graphic designer and visual storyteller. A curated portfolio of visual work, photography and creative direction.">
+  <title>Krishnaraj — Graphic Designer & Visual Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Krishnaraj home">K<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#work">Selected work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Graphic designer · Visual storyteller</p>
+        <h1>Design that<br>makes you <em>feel.</em></h1>
+        <p class="hero-description">I’m Krishnaraj — a creative mind drawn to meaningful visuals, thoughtful details and stories that stay with you.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#contact">Have a project in mind? <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-frame">
+          <img src="images/img.JPG" alt="A detailed, warmly lit ceremonial photograph from the portfolio">
+        </div>
+        <div class="hero-note"><span class="note-star">✳</span><span>Made with intention.<br>Remembered for feeling.</span></div>
+        <span class="hero-index">PORTFOLIO / 2026</span>
+      </div>
+      <div class="hero-bottom"><span>INDEPENDENT CREATIVE</span><span>BASED IN INDIA · AVAILABLE WORLDWIDE</span></div>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A selection of moments</p>
+          <h2>Selected <em>work</em></h2>
+        </div>
+        <p class="section-intro">A collection of celebrations, details and honest moments — captured with a focus on atmosphere, composition and emotion.</p>
+      </div>
+      <div class="work-toolbar">
+        <span>01 — 11 / PORTFOLIO</span>
+        <div class="filter-list" role="group" aria-label="Filter portfolio images">
+          <button class="filter-button active" data-filter="all">All work</button>
+          <button class="filter-button" data-filter="details">Details</button>
+          <button class="filter-button" data-filter="people">People</button>
+          <button class="filter-button" data-filter="stories">Stories</button>
+        </div>
+      </div>
+      <div class="gallery" id="gallery">
+        <button class="gallery-card card-tall" data-category="details" data-full="images/img.JPG" aria-label="View ceremonial detail photograph">
+          <img src="images/img.JPG" alt="Ornate gold ceremonial object decorated with white flowers" loading="lazy">
+          <span class="card-caption"><span>01 / Sacred details</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card card-wide" data-category="details" data-full="images/img1.JPG" aria-label="View floral ceremony photograph">
+          <img src="images/img1.JPG" alt="Traditional coconut and floral ceremonial arrangement" loading="lazy">
+          <span class="card-caption"><span>02 / Rituals & traditions</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card" data-category="people" data-full="images/img2.JPG" aria-label="View couple portrait">
+          <img src="images/img2.JPG" alt="Couple dressed for a celebration under warm lights" loading="lazy">
+          <span class="card-caption"><span>03 / Together</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card" data-category="people" data-full="images/img3.JPG" aria-label="View couple portrait">
+          <img src="images/img3.JPG" alt="Couple in traditional attire against a green floral backdrop" loading="lazy">
+          <span class="card-caption"><span>04 / A new chapter</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card card-tall" data-category="people" data-full="images/img4.JPG" aria-label="View bridal portrait">
+          <img src="images/img4.JPG" alt="Bride in a red silk saree and gold jewellery" loading="lazy">
+          <span class="card-caption"><span>05 / The bride</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card" data-category="stories" data-full="images/img5.JPG" aria-label="View seaside couple portrait">
+          <img src="images/img5.JPG" alt="Couple holding hands while looking out towards the sea" loading="lazy">
+          <span class="card-caption"><span>06 / Side by side</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card" data-category="people" data-full="images/img6.JPG" aria-label="View black and white portrait">
+          <img src="images/img6.JPG" alt="Black and white portrait in traditional attire" loading="lazy">
+          <span class="card-caption"><span>07 / In monochrome</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card card-wide" data-category="stories" data-full="images/img7.JPG" aria-label="View couple beneath decorative lights">
+          <img src="images/img7.JPG" alt="Couple sharing a moment beneath a canopy of golden lights" loading="lazy">
+          <span class="card-caption"><span>08 / Under the lights</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card" data-category="stories" data-full="images/img8.JPG" aria-label="View couple at a place of worship">
+          <img src="images/img8.JPG" alt="Couple offering prayers at a decorated shrine" loading="lazy">
+          <span class="card-caption"><span>09 / A quiet prayer</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card" data-category="details" data-full="images/img9.JPG" aria-label="View hands holding together">
+          <img src="images/img9.JPG" alt="Close-up of two hands gently holding each other" loading="lazy">
+          <span class="card-caption"><span>10 / The little things</span><span>↗</span></span>
+        </button>
+        <button class="gallery-card card-wide" data-category="stories" data-full="images/img10.JPG" aria-label="View seaside couple moment">
+          <img src="images/img10.JPG" alt="Couple enjoying a playful moment together by the sea" loading="lazy">
+          <span class="card-caption"><span>11 / Just us</span><span>↗</span></span>
+        </button>
+      </div>
+      <p class="gallery-footnote">A few frames from a larger story. Select any image to view it in detail.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-image">
+        <img src="images/profile.png" alt="Krishnaraj profile portrait" onerror="this.style.display='none'; this.parentElement.classList.add('profile-placeholder')">
+        <span class="about-image-label">THE PERSON BEHIND THE PIXELS</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">A little about me</p>
+        <h2>Curious by nature.<br><em>Creative by choice.</em></h2>
+        <p>I believe great design is more than what you see — it’s what you remember. My approach brings together visual curiosity, a love for detail and a thoughtful eye for the feeling behind every frame.</p>
+        <p>From bold compositions to quiet, meaningful moments, I’m interested in creating work that feels considered, personal and lasting.</p>
+        <a class="text-link" href="#contact">Let’s create something meaningful <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="statement-section section-wrap">
+      <p class="eyebrow">The creative approach</p>
+      <h2>Good work gets noticed.<br><em>Great work makes you feel.</em></h2>
+      <span class="statement-mark">K.</span>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-heading">
+        <p class="eyebrow">Have something in mind?</p>
+        <h2>Let's make it<br><em>meaningful.</em></h2>
+        <p>For collaborations, creative projects or a simple hello — I’d love to hear from you.</p>
+        <a class="button button-light" href="mailto:yourname@example.com">Start a conversation <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item"><span class="contact-label">PHONE</span><a href="tel:+910000000000">+91 XXXXX XXXXX</a></div>
+        <div class="contact-item"><span class="contact-label">EMAIL</span><a href="mailto:yourname@example.com">yourname@example.com</a></div>
+        <div class="contact-item"><span class="contact-label">INSTAGRAM</span><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">@yourinstagram <span>↗</span></a></div>
+        <div class="contact-item"><span class="contact-label">LOCATION</span><span>Your City, India</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-mark" href="#home">K<span>.</span></a>
+    <span>© <span id="year"></span> KRISHNARAJ. MADE WITH INTENTION.</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">←</button>
+    <img id="lightboxImage" src="" alt="">
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">→</button>
+    <span class="lightbox-count" id="lightboxCount"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
